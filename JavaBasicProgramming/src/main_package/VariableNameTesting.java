@@ -1,6 +1,6 @@
 package main_package;
 
- class VariableNameTesting {
+ public class VariableNameTesting {
 
 	 // allowed characters for identifies [a-z][A-Z][0-9][_,$]
 	int accountNumber;
