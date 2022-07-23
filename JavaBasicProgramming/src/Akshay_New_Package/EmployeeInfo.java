@@ -10,6 +10,8 @@ public class EmployeeInfo {
 
 	void displayEmployeeInfo() {
 		
+		System.out.println("All Employee Details");
+		System.out.println("------------------------------------------");
 		System.out.println("Employee ID = " + empid);
 		System.out.println("Employee Name = " + empname);
 		System.out.println("Company Name = " + cmpname);
