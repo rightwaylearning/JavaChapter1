@@ -19,7 +19,9 @@ public class Controller {
 		 Student s = d.getObject();
 		 System.out.println(s.name);
 		 System.out.println(s.rollNumber);
-		
+		 
+		 System.out.println("-----------------------");
+		System.out.println(s.phoneNumber);
 		
 	}
 }
