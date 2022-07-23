@@ -6,8 +6,10 @@ public class controller {
 		MathsOp m = new MathsOp ();
 		int y =10;
 		int z=20;
-		m.dosum(y, z);
-		m.dosum(854, 254);
+		 m.dosum(30, 20);
+     
+	
+	
 	}
 	}
 
