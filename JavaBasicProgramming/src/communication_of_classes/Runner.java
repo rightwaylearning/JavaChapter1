@@ -9,6 +9,15 @@ public class Runner {
 		u.doSum(100, 200);
 		
 		u.doDivision(27, 5);
+	    u.doAddision (12, 12);
 	}
 	
+		
+	
+	
+	User u = new User();
+	
+	
+
+
 }

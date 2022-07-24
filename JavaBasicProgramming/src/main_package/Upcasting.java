@@ -23,8 +23,6 @@ public class Upcasting {
 		System.out.println(lg);
 		
 		double ch= 'A';
-		
-		
-		
-	}
+    }
+	
 }
