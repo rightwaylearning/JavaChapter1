@@ -14,9 +14,7 @@ public class demo {
 		t1.initData(25, 50);
 		System.out.println(t1.a);
 		System.out.println(t1.b);
-		
-		
-		
+	
 		test t2 = new test();
 		t2.init(22, 333);
 		System.out.println(t2.a);
