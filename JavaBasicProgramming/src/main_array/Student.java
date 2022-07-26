@@ -1,9 +1,9 @@
 package main_array;
 
 public class Student {
-   String name;
+   public String name;
    
-   void showMyName() {
+   public void showMyName() {
 	   System.out.println(this.name);
    }
 }
