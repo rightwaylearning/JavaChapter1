@@ -3,6 +3,8 @@ package Sahil_main;
 public class test {
 	int a;
 	int b;
+	public int y;
+	public int x;
 	
 	void showUp() {
 		System.out.println(a);
@@ -17,6 +19,7 @@ public class test {
 		
 		System.out.println(this.a);
 		System.out.println(this.b);
+		
 	}
 	
 	void initData(int x,int y) {
