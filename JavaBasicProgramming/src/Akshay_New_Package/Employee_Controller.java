@@ -4,15 +4,24 @@ public class Employee_Controller {
 	
 	public static void main(String[] args) {
 		
-		EmployeeInfo e = new EmployeeInfo ();
+		EmployeeInfo Akshay = new EmployeeInfo ();
 		
-		e.empid = 23;
-		e.empname = "Akshay Vilas Tejale";
-		e.cmpname = "Infosys";
-		e.salary = 60000;
-		e.allownce = 5000;
+		Akshay.empid = 23;
+		Akshay.empname = "Akshay Vilas Tejale";
+		Akshay.cmpname = "Infosys";
+		Akshay.salary = 60000;
+		Akshay.allownce = 5000;
 		
-		e.displayEmployeeInfo();
+		EmployeeInfo Sahil = new EmployeeInfo ();
+		
+		Sahil.empid = 25;
+		Sahil.empname = "Sahil Nalade";
+		Sahil.cmpname = "Infosys";
+		Sahil.salary = 65000;
+		Sahil.allownce = 4000;
+		
+		Akshay.displayEmployeeInfo();
+		Sahil.displayEmployeeInfo();
 	}
 
 }
