@@ -16,7 +16,7 @@ public class ArrayOfObject {
 					s.name = "WW";
 					s.rollNumber = 23;
 				
-		arr[1] = s;
+	         arr[0] = s;
 		
 
 	}
