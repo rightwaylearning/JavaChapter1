@@ -9,11 +9,13 @@ public class arrayObject {
 		        arr[0].name ="sahil";
 		        arr[0].rollNumber= 254;
 		        
-//		        student s =new student ();
-//		                s.name="akshy";
-//		                s.rollNumber=255;
+                student s =new student ();
+                
+                s.name="akshy";
+                s.rollNumber=255;
 		                
-	      System.out.println(arr[0]);	   
+	      arr[0].showDitels();
+	      s.showDitels();
       
 		        		
 				
