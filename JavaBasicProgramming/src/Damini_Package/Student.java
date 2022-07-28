@@ -1,7 +1,7 @@
 package Damini_Package;
 
 public class Student {
-	String name;
+	public String name;
 
 	void showName()
 	{
