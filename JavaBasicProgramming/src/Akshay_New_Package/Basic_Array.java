@@ -14,7 +14,7 @@ public class Basic_Array {
 		a[3] = 40;
 		a[4] = 50;
 		
-		System.out.println("Array of int\n");
+		System.out.println("Array of int");
 		System.out.println(a[0]);
 		System.out.println(a[1]);
 		System.out.println(a[2]);
@@ -27,7 +27,7 @@ public class Basic_Array {
 		b[0] = 10.10F;
 		b[1] = 10;
 		
-		System.out.println("Array of float\n");
+		System.out.println("Array of float");
 		System.out.println(b[0]);
 		System.out.println(b[1]);
 		System.out.println("---------------------");
@@ -52,10 +52,14 @@ public class Basic_Array {
 		c[4].name = "5. White";
 		
 		System.out.println("Reference Data Type\n");
-		c[0].showMyName();
-		c[1].showMyName();
-		c[2].showMyName();
-		c[3].showMyName();
-		c[4].showMyName();
+		
+		for (int i=0; i<5; i++)
+			c[i].showMyName();
+		
+//		c[0].showMyName();
+//		c[1].showMyName();
+//		c[2].showMyName();
+//		c[3].showMyName();
+//		c[4].showMyName();
 		}
 	}
