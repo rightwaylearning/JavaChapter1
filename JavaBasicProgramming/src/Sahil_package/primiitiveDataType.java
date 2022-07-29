@@ -16,9 +16,9 @@ public class primiitiveDataType {
 	    short s1 = -32768;
 	    
 	    
-	    int b = 2147483646;
+	    int b1 = 2147483646;
 	    
-	    int b1 = -2147483647;
+	    int b2 = -2147483647;
 	    
 	    long num = 9223372036854775807L;
 	    

@@ -25,7 +25,7 @@ public class ArrayObject {
 		   
 		   
 		   
-		   //System.out.println(a.name);
+		//   System.out.println(a.name);
 		    
 		   
 	}
