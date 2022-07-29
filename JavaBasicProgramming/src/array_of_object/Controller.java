@@ -8,7 +8,6 @@ public class Controller {
 		e.name = "Saket";
 		e.empId = 4213;
 		e.designation = "Software developer";
-		
 		e.address = new Address();
 			e.address.cityname = "Hyd";
 			e.address.pinCode = 452311;
