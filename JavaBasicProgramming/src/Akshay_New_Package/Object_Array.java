@@ -7,7 +7,7 @@ public class Object_Array {
 		Car_Array[] c = new Car_Array[5];
 
 		c[0] = new Car_Array();
-		
+
 		c[0].Carno = 001;
 		c[0].CarName = "Swift";
 		c[0].CalColour = "White";
@@ -40,7 +40,7 @@ public class Object_Array {
 		c[4].CarName = "Breeza";
 		c[4].CalColour = "Cream";
 		c[4].module = 2016;
-		
+
 //		c[5] = new Car_Array();
 //
 //		c[5].Carno = 006;
@@ -48,7 +48,15 @@ public class Object_Array {
 //		c[5].CalColour = "Yellow";
 //		c[5].module = 2019;
 
-		System.out.println("Details of the Car");
+		System.out.println("----------------------------------");
+		System.out.println("Details of the Car (By loop)");
+		for (int i = 0; i < 5; i++)
+			c[i].showDetails();
+
+		System.out.println("----------------------------------\n");
+		System.out.println("----------------------------------");
+		System.out.println("Details of the Car (By manual)");
+
 		c[0].showDetails();
 		c[1].showDetails();
 		c[2].showDetails();
