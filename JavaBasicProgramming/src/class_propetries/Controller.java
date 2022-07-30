@@ -16,14 +16,8 @@ public class Controller {
 		
 		s.std = "5th";
 		
-		s.subjects = new String[6];
-		s.subjects[0] = "First lang";
-		s.subjects[1] = "Algebra";
-		s.subjects[2] = "science";
-		s.subjects[3] = "native language";
-		s.subjects[4] = "second language";
-		s.subjects[5] = "Social science";
-		
+		String[] sub = {"ab","pq","lm","kk","nn"};
+		s.subjects = sub;
 		
 		ShowData show = new ShowData();
 		show.displayInfo(s);
