@@ -21,7 +21,7 @@ public class handler {
 		  ad.cityname="Mehsana";
 		  ad.pincode=345267;
 		  
-		  st.addr=ad;
+		 st.addr=ad;
 		  
 		  System.out.println(st.name);
 		  System.out.println(st.collagename);
