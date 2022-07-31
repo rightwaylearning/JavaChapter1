@@ -1,9 +1,18 @@
 package two_d_array_examples;
 
-public class Examples {
+public class Examples  {
+	
+	public void test() {}
 
 	public static void main(String[] args) {
-
+		Examples e = new Examples();
+		        
+		Class c =   e.getClass();
+		
+		for (int i = 0; i < c.getMethods().length; i++) {
+			System.out.println(c.getMethods()[i]);
+		}
+		
 		int[][] arr = new int[3][2]; 
 		
 		
