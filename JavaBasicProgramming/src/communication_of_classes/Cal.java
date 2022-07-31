@@ -11,4 +11,14 @@ public class Cal {
 		double ans =  n/d;
 		return ans;
 	}
-}
+			
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+

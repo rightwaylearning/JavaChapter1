@@ -24,5 +24,6 @@ public class Controller {
 		arr[0]= e;
 		
 		System.out.println(e.designation);
+		
 	}
 }
