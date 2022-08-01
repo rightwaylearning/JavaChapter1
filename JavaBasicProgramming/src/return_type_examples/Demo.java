@@ -16,6 +16,14 @@ public class Demo {
 		Student s = new Student();
 		s.name = "Madi";
 		s.rollNumber = 23;
+		s.phoneNumber = 1234567098L;
 		return s;
 	}
+       
+	
 }
+	
+
+	
+	
+

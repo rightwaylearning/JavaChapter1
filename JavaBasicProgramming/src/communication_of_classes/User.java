@@ -14,4 +14,18 @@ public class User {
 		 System.out.println(result);
 		
 	}
+	
+	void doAddision(int a,int c)
+	{
+		Cal c1 = new Cal();
+		int Addision = c1.doAdd(a, c);
+		System.out.println(Addision);
+		
+	}
+	
+	
 }
+
+
+
+
