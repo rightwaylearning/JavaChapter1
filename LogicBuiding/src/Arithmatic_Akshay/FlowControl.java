@@ -27,7 +27,7 @@ public class FlowControl {
 		
 		System.out.println("Salary is = 20000");
 		
-		if (obj.EligibleEmployye(minSalary)) {
+		if (obj1.EligibleEmployye(minSalary)) {
 			
 			System.out.println("Kindly try in City Bank for Saving account");
 		}
@@ -35,7 +35,6 @@ public class FlowControl {
 		{
 			System.out.println("You can try in State bank of India");
 		}
-		System.out.println("Your A/c is open");
 		System.out.println("------------------------------------------");	
 	}
 }
