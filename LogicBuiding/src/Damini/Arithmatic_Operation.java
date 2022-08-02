@@ -14,7 +14,7 @@ public class Arithmatic_Operation {
 		
 		char a1='A';
 		int b1=20;
-		int c1=a1+b1;
+		int c1=a1+b1;	
 		System.out.println(c1);
 		
 		short t=23;
