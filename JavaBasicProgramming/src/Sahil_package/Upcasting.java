@@ -23,7 +23,9 @@ public class Upcasting {
 	 long l = s;
 	 System.out.println(l);
   
-	
+	char n = 56;
+	int m =  n;
+	System.out.println(m);
 	
 	
 	}
