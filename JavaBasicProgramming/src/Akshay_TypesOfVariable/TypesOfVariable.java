@@ -10,6 +10,7 @@ public class TypesOfVariable {
 		
 		Test.c = 150;  // Static Variable
 		
+		System.out.println("Differance between Instance & Static Variable\n");
 		System.out.println("This is Instance Variable = "+d.a);
 		
 		Test d1 = new Test ();
@@ -19,6 +20,8 @@ public class TypesOfVariable {
 		System.out.println("This is Static Variable used directly class 'Test.c' = "+Test.c);
 		System.out.println("This is Static Variable used directly object 'd1.c' = "+ d1.c);
 		System.out.println("=============================================================");
+		
+		// Below program is without Array_Program
 		
 		Product farm = new Product ();
 		
@@ -39,6 +42,8 @@ public class TypesOfVariable {
 		farm.showDetils();
 		farm1.showDetils();
 		farm2.showDetils();
+		
+		// Below program is Array_Program
 		
 		Product[] akshay = new Product[3];
 		
