@@ -1,4 +1,5 @@
-package arithmatic_operation;
+
+ufjnbpackage arithmatic_operation;
 
 public class StringContcatinationOperator {
 
@@ -26,7 +27,7 @@ public class StringContcatinationOperator {
 	     System.out.println(r1);  // "100200300"
 	     
 	     String r3 = a + b + s4 + c;
-	           //  = 100 + 200 + "" + 300
+	           //  = 100 + 200 + "" + 300kjjvhhvggxxxcfdddddxdgxxxjkxkmvnvkjnffkijfhy66rr89r00000
 	           //  = 300 + "" + 300
 	           //  =  "300" + 300
 	           //  = "300300"

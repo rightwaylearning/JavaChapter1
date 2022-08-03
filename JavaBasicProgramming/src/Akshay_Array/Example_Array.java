@@ -8,10 +8,11 @@ public class Example_Array {
 		
 		int [][] arr = new int [3][4];
 		
-		int[] a = new int [3];
+		int[] a = new int [4];
 		a[0] = 10;
 		a[1] = 20;
 		a[2] = 30;
+		a[3] = 40;
 		
 		arr[0] = a;
 		
@@ -21,6 +22,21 @@ public class Example_Array {
 		arr[0][1] = 600;
 		arr[0][2] = 950;
 		arr[0][3] = 980;
+		
+		arr[1][0] = 500;
+		arr[1][1] = 600;
+		arr[1][2] = 950;
+		arr[1][3] = 980;
+		
+		arr[2][0] = 500;
+		arr[2][1] = 600;
+		arr[2][2] = 950;
+		arr[2][3] = 980;
+		
+//		arr[3][0] = 500;
+//		arr[3][1] = 600;
+//		arr[3][2] = 950;
+//		arr[3][3] = 980;
 		
 //		arr[1][0] = 700;
 //		arr[1][1] = 800;

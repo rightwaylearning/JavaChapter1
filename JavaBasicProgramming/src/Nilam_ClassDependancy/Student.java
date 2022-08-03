@@ -4,7 +4,8 @@ public class Student {
 	String name;
 	int rollNumber;
 	String ClgName;
-	Address addr; 
+	Address addr;
+	String hNumber; 
 	 
 
 
