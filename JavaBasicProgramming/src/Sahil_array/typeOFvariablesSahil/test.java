@@ -23,30 +23,32 @@ public class test {
 		suraj.contactNmeber = 55461494164L;
 	
 			
-
+      sahil.ShowData();
+      akshy.ShowData();
+      suraj.ShowData();
 		
 		
          
-		
-		System.out.println(college.collegeName);
-        System.out.println(sahil.name);
-		System.out.println(sahil.rollNumber);
-		System.out.println(college.barnchName);
-		System.out.println(sahil.contactNmeber);
-		System.out.println("===================");
-		
-		System.out.println(college.collegeName);
-		System.out.println(akshy.name);
-		System.out.println(akshy.rollNumber);
-		System.out.println(college.barnchName);
-		System.out.println(akshy.contactNmeber);
-		System.out.println("======================");
-		System.out.println(college.collegeName);
-		System.out.println(suraj.name);
-		System.out.println(suraj.rollNumber);
-		System.out.println(college.barnchName);
-		System.out.println(suraj.contactNmeber);
-		System.out.println("===================");
+	
+	
+//		System.out.println(college.collegeName);
+//       System.out.println(sahil.name);
+//		System.out.println(sahil.rollNumber);
+//		System.out.println(college.barnchName);
+//		System.out.println(sahil.contactNmeber);
+//		System.out.println("===================");
+//		
+//		System.out.println(college.collegeName);
+//		System.out.println(akshy.name);
+//		System.out.println(akshy.rollNumber);
+//		System.out.println(college.barnchName);
+//		System.out.println(akshy.contactNmeber);
+//		System.out.println("======================");
+//		System.out.println(college.collegeName);
+//		System.out.println(suraj.name);
+//		System.out.println(suraj.rollNumber);
+//		System.out.println(college.barnchName);
+//		System.out.println(suraj.contactNmeber);
+//		System.out.println("===================");
 	}
-
 }
