@@ -24,10 +24,7 @@ public class test {
 	
 			
 
-		
-		
-         
-		
+        	
 		System.out.println(college.collegeName);
         System.out.println(sahil.name);
 		System.out.println(sahil.rollNumber);
