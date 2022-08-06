@@ -37,7 +37,7 @@ public class TypesOfVariable {
 		e.rollNumber=25;
 		
 		
-		System.out.println(d.collegeName);
+		System.out.println(Student.collegeName);
 
 		
 	}

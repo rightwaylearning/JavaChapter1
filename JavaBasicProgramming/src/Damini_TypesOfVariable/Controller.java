@@ -27,6 +27,14 @@ public class Controller {
 		Collage.Show();
 		Collage.staticmethod();
 	}
+	
+	public static void main(String[] args) {
+		Controller c=new Controller();
+		c.s1();
+		Controller.s2();
+		System.out.println();
+		
+	}
 		
 	}
 
