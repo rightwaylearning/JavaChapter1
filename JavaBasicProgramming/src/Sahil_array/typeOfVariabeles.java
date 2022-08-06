@@ -12,9 +12,9 @@ public class typeOfVariabeles {
 		//System.out.println(name); 
 	//	System.out.println(age);
 		
-		customer c = new customer();
+	//	customer c = new customer();
 	
-		System.out.println(c.name);
-		System.out.println(c.age);
+//		System.out.println(c.name);
+//		System.out.println(c.age);
 	}
 }

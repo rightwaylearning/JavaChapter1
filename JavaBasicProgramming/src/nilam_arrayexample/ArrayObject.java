@@ -11,8 +11,8 @@ public class ArrayObject {
                   
       arr[0].addr= new Address ();
       
-                  arr[0].addr.cityname="pune";
-                  arr[0].addr.pinnumber=1234;
+                 arr[0].addr.cityname="pune";
+                 arr[0].addr.pinnumber=1234;
                   
                   System.out.println(arr[0].name);
                   System.out.println(arr[0].rollNumber);
