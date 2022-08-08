@@ -31,7 +31,7 @@ public class IncremetDecrementOperator {
 		
 		
 		byte b = 10;
-		byte c =b++;             //byte c = b +1; 
+		byte c =b++; // internally type casting        //byte c = b +1; 
 		System.out.println(b);
 		System.out.println(c);
 		
