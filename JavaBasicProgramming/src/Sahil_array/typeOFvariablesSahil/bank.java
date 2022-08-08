@@ -34,14 +34,14 @@ public class bank{
     
     
     
-	static  void showDitels() {
+	  void showDitels() {
 		
 		 System.out.println(bank.bankName);
 		   System.out.println(bank.barnchName);
-		  bank showDitels= new bank ();
-		  System.out.println(showDitels.name);
-		   System.out.println(showDitels.AccountNumber);
-		   System.out.println(showDitels.address);
+		 // bank showDitels= new bank ();
+		  System.out.println(this.name);
+		   System.out.println(this.AccountNumber);
+		   System.out.println(this.address);
 		   System.out.println("****************************");	  }
 		   
 

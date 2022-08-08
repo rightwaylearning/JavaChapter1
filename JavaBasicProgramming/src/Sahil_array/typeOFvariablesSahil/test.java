@@ -22,7 +22,26 @@ public class test {
 		suraj.rollNumber = 655;
 		suraj.contactNmeber = 55461494164L;
 	
-			
+       	
+		System.out.println(college.collegeName);
+        System.out.println(sahil.name);
+		System.out.println(sahil.rollNumber);
+		System.out.println(college.barnchName);
+		System.out.println(sahil.contactNmeber);
+		System.out.println("===================");
+		
+		System.out.println(college.collegeName);
+		System.out.println(akshy.name);
+		System.out.println(akshy.rollNumber);
+		System.out.println(college.barnchName);
+		System.out.println(akshy.contactNmeber);
+		System.out.println("======================");
+		System.out.println(college.collegeName);
+		System.out.println(suraj.name);
+		System.out.println(suraj.rollNumber);
+		System.out.println(college.barnchName);
+		System.out.println(suraj.contactNmeber);
+		System.out.println("===================");
       sahil.ShowData();
       akshy.ShowData();
       suraj.ShowData();
@@ -31,6 +50,7 @@ public class test {
          
 	
 	
+<<<<<<< HEAD
 		System.out.println(college.collegeName);
        System.out.println(sahil.name);
 		System.out.println(sahil.rollNumber);
@@ -50,5 +70,27 @@ public class test {
 		System.out.println(college.barnchName);
 		System.out.println(suraj.contactNmeber);
 		System.out.println("===================");
+=======
+//		System.out.println(college.collegeName);
+//       System.out.println(sahil.name);
+//		System.out.println(sahil.rollNumber);
+//		System.out.println(college.barnchName);
+//		System.out.println(sahil.contactNmeber);
+//		System.out.println("===================");
+//		
+//		System.out.println(college.collegeName);
+//		System.out.println(akshy.name);
+//		System.out.println(akshy.rollNumber);
+//		System.out.println(college.barnchName);
+//		System.out.println(akshy.contactNmeber);
+//		System.out.println("======================");
+//		System.out.println(college.collegeName);
+//		System.out.println(suraj.name);
+//		System.out.println(suraj.rollNumber);
+//		System.out.println(college.barnchName);
+//		System.out.println(suraj.contactNmeber);
+//		System.out.println("===================");
+
+>>>>>>> 22aec7864452ebdd6ac10d0ce6b8bebb956b9d9e
 	}
 }
