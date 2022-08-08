@@ -25,6 +25,10 @@ public class Examples {
 		char ch ='A';
 		boolean b = aa < ch;
 		System.out.println(b);
+	
+		
+		String s111 = String.valueOf("abc");
+		System.out.println(s111);
 	}
 	
 
