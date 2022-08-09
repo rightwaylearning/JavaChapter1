@@ -45,7 +45,7 @@ public class Incremant_Decrement {
 	   
 	   System.out.println(x);
 	   System.out.println(y);
-	   
+	   System.out.println("====================================");
 	 
 	   
 	}
