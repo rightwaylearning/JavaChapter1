@@ -42,6 +42,17 @@ public class incremetDecrement {
 		int e = --p;
 		System.out.println(p);
 		System.out.println(e);
+		
+		 byte t = 10;
+		 int h= --t;
+		 System.out.println(t);
+		 System.out.println(h);
+		 
+		 int s1 = 30;
+		 int u= s1-1;
+		 System.out.println(s1);
+		 System.out.println(u);
+		   
 
 	}
 }
