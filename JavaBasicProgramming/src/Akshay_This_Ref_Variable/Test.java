@@ -1,8 +1,6 @@
 package Akshay_This_Ref_Variable;
 
 public class Test {
-	
-	Test t = new Test ();
 	int a;
 	int b;
 	
@@ -11,5 +9,13 @@ public class Test {
 		System.out.println(this.b);
 	}
 	
+	void showupAgain () {
+		
+		int p = 10;
+		int q = 20;
+		
+		System.out.println(p);
+		System.out.println(q);
+	}
 
 }

@@ -72,3 +72,11 @@ public class EqualityOperator {
 		
 	}
 }
+
+	class A {};
+	class B extends A {};
+	class C extends B {};
+	class D extends A {};
+	
+	class Student {};
+	
