@@ -37,8 +37,7 @@ public class Examples {
 		
 		System.out.println(a11==b11);
 		System.out.println(o == d11);
-		System.out.println(c11 == d11);
-		System.out.println(b11==d11);
+//System.out.println(c11 == d11);
 		
 	}
 }

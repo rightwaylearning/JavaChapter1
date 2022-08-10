@@ -15,7 +15,6 @@ public class EqualityOperator {
 		System.out.println(d);
 		System.out.println("==============================");
 		
-		
 		// 1. [==] - is equal to
 		// 2. [!-] - is not equal to
 		// 3. Here we can use 'byte, int, short, long, float, double' Primitive data types 
