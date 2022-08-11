@@ -38,5 +38,33 @@ public class Controller {
 		System.out.println(x); //
 		System.out.println(y); //
 		
+		System.out.println(">>>>>>>>>>>>>>");
+		
+		
+		
+		x =10; y =9;
+		r = x++ < 10 || y++ >9;
+		System.out.println(r); // false
+		System.out.println(x); // 11
+		System.out.println(y); //10
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 }
