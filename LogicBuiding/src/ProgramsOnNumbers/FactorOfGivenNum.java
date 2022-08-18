@@ -3,7 +3,7 @@ package ProgramsOnNumbers;
 public class FactorOfGivenNum {
 
 	public static void main(String[] args) {
-		int num = 18;
+		int num = 20;
 		int start = 1;
 		
 		while(start < num) {
