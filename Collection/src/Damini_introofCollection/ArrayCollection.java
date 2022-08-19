@@ -21,6 +21,6 @@ public class ArrayCollection {
 		
 		System.out.println(a.add(10));
 	}
-	
-
 }
+
+
