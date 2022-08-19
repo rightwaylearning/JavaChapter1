@@ -21,7 +21,7 @@ public class ArrayListDemo {
 		System.out.println(al);
 		// [10, 20, 200, 10, 30, sachin, 50, 30]
 		
-		//System.out.println(al.get(30));
+		System.out.println(al.get(3));
 		
 		System.out.println(al.size());
 		System.out.println(al.isEmpty());
