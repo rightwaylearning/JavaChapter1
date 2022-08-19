@@ -14,3 +14,5 @@ public class FactorialNum {
 		System.out.println(fact);
 	}
 }
+
+
