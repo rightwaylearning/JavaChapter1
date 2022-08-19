@@ -17,7 +17,7 @@ public class TablesFrom1ToN {
 	public static void printTable(int table) {
 		int i = 1;
 		while (i <= 10) {
-			System.out.println(i * table);
+			System.out.print( i* table +" ");
 			i++;
 		}
 		System.out.println(">>>>>>>>>>>>>>>>>");

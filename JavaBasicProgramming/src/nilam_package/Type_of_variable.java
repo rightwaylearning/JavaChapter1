@@ -12,6 +12,6 @@ public class Type_of_variable {
 		 System.out.println(Type_of_variable.schoolname);
 	}
 	
-	static void 
+	
 
 }

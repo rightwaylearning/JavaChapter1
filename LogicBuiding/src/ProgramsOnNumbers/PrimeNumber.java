@@ -3,7 +3,7 @@ package ProgramsOnNumbers;
 public class PrimeNumber {
 
 	public static void main(String[] args) {
-		int num = 28;
+		int num = 35;
 		boolean flag = true;
 		int div = 2;
 		

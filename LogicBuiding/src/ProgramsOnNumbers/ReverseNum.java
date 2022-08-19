@@ -6,6 +6,7 @@ public class ReverseNum {
 
 		int num = 7654;
 		String rev = "";
+		
 		while (num > 0) {
 			int r = num % 10;
 			rev = rev + r;
