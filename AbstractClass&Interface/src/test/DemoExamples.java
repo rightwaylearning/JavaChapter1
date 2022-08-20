@@ -1,6 +1,16 @@
 package test;
 
+import java.util.ArrayList;
+
 public class DemoExamples {
+	
+	
+	Object o;
+	String s;
+	ArrayList al;
+	int a;
+	int b;
+	Class c;
 
 	public static void main(String[] args) {
 
@@ -10,6 +20,8 @@ public class DemoExamples {
 
 		// B b= new B(); C.E
 		B b = null;
+		
+		
 
 	}
 }
