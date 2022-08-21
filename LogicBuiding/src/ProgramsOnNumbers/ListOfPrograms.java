@@ -18,7 +18,7 @@ public class ListOfPrograms {
 
 6] Factors Program in Java
 
-7] Fibonacci Series Program in Java
+7] FibonacciSeries Program in Java
    A series of numbers in which each number ( Fibonacci number ) is the sum of the two preceding numbers. The simplest is the series 0, 1, 1, 2, 3, 5, 8, etc.
 
 8] Palindrome Number Program in Java
