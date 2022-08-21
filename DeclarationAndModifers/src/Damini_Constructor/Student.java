@@ -1,4 +1,18 @@
-package Damini_TestDetails;
+package Damini_Constructor;
+
+import Damini_AccessModifier.Test;
+
+class D extends Test{
+	
+	public static void main(String[] args) {
+		
+		D d=new D();
+		
+			System.out.println(d.name);
+			System.out.println(d.num);
+		
+	}
+}
 
 public class Student {
 	String Name;
@@ -40,10 +54,12 @@ public class Student {
 	public char getDiv() {
 		return div;
 	}
-	public void setDiv(char div) {
+ void setDiv(char div) {
 		this.div = div;
 	}
-	
+		
 	
 
 }
+
+
