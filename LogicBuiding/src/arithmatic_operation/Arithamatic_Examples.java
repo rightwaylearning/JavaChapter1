@@ -1,4 +1,4 @@
-package arithmatic_operation;
+ package arithmatic_operation;
 
 public class Arithamatic_Examples {
 

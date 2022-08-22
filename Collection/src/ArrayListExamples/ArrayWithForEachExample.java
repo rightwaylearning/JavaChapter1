@@ -15,6 +15,8 @@ public class ArrayWithForEachExample {
 		
 		for (String str : args) {
 			System.out.println(str);
+			
 		}
+		
 	}
 }
