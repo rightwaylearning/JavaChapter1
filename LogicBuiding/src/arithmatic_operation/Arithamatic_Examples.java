@@ -24,6 +24,5 @@ public class Arithamatic_Examples {
 		
 		System.out.println("Result of c = " + 30);
 		
-		
 	}
 }
