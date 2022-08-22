@@ -3,8 +3,8 @@ package ProgramsOnNumbers;
 public class FindOutOccurancesOfDigit {
 
 	public static void main(String[] args) {
-		long num = 1341123181L;
-		int digit = 1; int frequency = 0;
+		long num = 222223345411L;
+		int digit = 2; int frequency = 0;
 		
 		while(num > 0) {
 			long r = num % 10;

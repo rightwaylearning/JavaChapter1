@@ -9,7 +9,7 @@ public class AutomorphicProgram {
     */
 	
 	public static void main(String[] args) {
-		int num = 12;
+		int num = 25;
 		int squre =  num*num; // 625
 		
 		int inputlength = digitCount(num);

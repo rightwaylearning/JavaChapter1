@@ -1,6 +1,6 @@
 package InnerPackage;
 
-public class D {
+ public class D {
 
 	void test() {
 		A a= new A();

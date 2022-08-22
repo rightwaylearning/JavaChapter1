@@ -12,9 +12,9 @@ public class SumofGivenNumber {
 
 		while (a > 0) {
 
-			int r = a % 10;
-			sum = sum + r;
-			a = a / 10;
+			int r = a % 10; // Answer is 4 + 3 + 2 + 1 (because while loop is > 0)
+			sum = sum + r; // Answer is 10
+			a = a / 10; // Answer is 123
 		}
 
 		System.out.println("Given number is " + copy1 + " & sum of digit is " + sum);
