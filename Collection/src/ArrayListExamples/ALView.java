@@ -26,6 +26,7 @@ public class ALView {
 			System.out.println(al.get(i));
 		}
 		System.out.println(">>>>>>>>>");
+		
 		// while
 		int i =0;
 		while(i < al.size()) {
@@ -33,9 +34,16 @@ public class ALView {
 			i++;
 		}
 		System.out.println(">>>>>>>>>");
-		// ==============================
+		// ============================== forEach() ;/ array & collection
 		for(Object o:al) {
 			System.out.println(o);
+		}
+		
+		 System.out.println(">>>>>>>>>");
+		
+		Iterator itr = al.iterator();
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
 		}
 		
 	}
