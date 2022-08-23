@@ -23,7 +23,7 @@ public class Controller {
 	    // NOTE:- parent reference can hold Child class object
 		
 	    // case 4]
-	 //   Child c1 = new Parent();
+	 //  Child c1 = new Parent();
 	    // NOTE : child class reference can't hold parent class object
 	    
 	   
