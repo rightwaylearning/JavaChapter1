@@ -2,9 +2,9 @@ package Nilam_settergettermetod;
 
 public class Employee {
 
-	private String name;
-	private int employeeId;
-	private String cmpName;
+ String name;
+ int employeeId;
+ String cmpName;
 
 	public String getName() {
 		return name;
