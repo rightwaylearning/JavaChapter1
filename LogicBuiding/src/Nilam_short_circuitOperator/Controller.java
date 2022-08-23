@@ -7,6 +7,7 @@ public class Controller {
 		Operator o = new Operator();
 
 		boolean r = o.m1() && o.m2();
+		System.out.println(r);
 
 		int a = 20;
 		int b = 30;
