@@ -29,8 +29,8 @@ public class Student {
 	public static void setSchoolName(String schoolName) {
 		Student.schoolName = schoolName;
 	}
-	static public void showStudentDeatils() {
-		System.out.println("static method");
-	}
+	//static public void showStudentDeatils() {
+	//	System.out.println("static method");
+	//}
 
 }

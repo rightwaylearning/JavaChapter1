@@ -10,7 +10,7 @@ public class ArrayWithForEachExample {
 		a[4] = 100;
 		
 		for (int e : a) {
-			System.out.println(e);
+			//System.out.println(e);
 		}
 		
 		for (String str : args) {
