@@ -1,6 +1,7 @@
 package Akshay_ArrayList;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class ALView {
 	
@@ -34,6 +35,12 @@ public class ALView {
 		System.out.println("===============================");
 		for (Object o:al) {
 			System.out.println(o);
+		}
+		System.out.println("===============================");
+		
+		Iterator itr = al.iterator();
+		while (itr.hasNext()) {
+			System.out.println(itr.next());
 		}
 	}
 

@@ -1,6 +1,6 @@
 package nilam_runner;
 
-import static nilam_studentinfo.Student.showStudentDeatils;
+//import static nilam_studentinfo.Student.showStudentDeatils;
 
 import nilam_studentinfo.School;
 import nilam_studentinfo.Student;
@@ -10,7 +10,7 @@ public class student_controller {
 
 	public static void main(String[] args) {
 
-		showStudentDeatils();
+	//	showStudentDeatils();
 		Student s = new Student();
 
 		s.rollNumber = 12;

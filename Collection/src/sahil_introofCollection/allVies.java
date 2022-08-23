@@ -30,9 +30,12 @@ public static void main(String[] args) {
 	System.out.println("==========================");
 	
 	
-	for (int i=0; i<a1.size();i++) {
-		System.out.println(a1.get(i));
+	while(itr.hasNext()) {
+		Integer i = itr.next();
+		if(i % 2 == 0) {
+		  itr.remove();
 		}
+	}
 	System.out.println("=======================");
      System.out.println(a1.size());
      System.out.println("=======================");
