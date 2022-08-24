@@ -11,7 +11,7 @@ public class Controller {
 		p.m2(); // Answer is = "I am m2 method of Parent class"
 		System.out.println("===========================================");
 		
-	// Case 1
+	// Case 2
 		
 		C c = new C ();
 		c.m1(); // Answer is = "I am m1 method of Child class"

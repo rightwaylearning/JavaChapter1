@@ -8,6 +8,9 @@ public class Tables {
 		while (n <= 10) {
 			System.out.println(n * table);
 			n++;
+
 		}
+
 	}
+
 }

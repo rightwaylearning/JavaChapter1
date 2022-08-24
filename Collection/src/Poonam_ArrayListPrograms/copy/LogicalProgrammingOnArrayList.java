@@ -1,4 +1,4 @@
-package ArrayListPrograms;
+package Poonam_ArrayListPrograms.copy;
 
 public class LogicalProgrammingOnArrayList {
 

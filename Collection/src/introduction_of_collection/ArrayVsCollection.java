@@ -26,7 +26,6 @@ import java.util.Collection;
 		al.add(new Student());
 	
 	
-		
 	//	Collection
 		
 	}
