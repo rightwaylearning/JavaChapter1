@@ -27,7 +27,7 @@ public class studentDemo {
 		while (itr.hasNext()) {
 			Student b = itr.next();
 			
-			if (86 <= b.getStudentpercentage()) {
+			if (86 >= b.getStudentpercentage()) {
 			
 				System.out.println(b.getStudentName());
 				System.out.println(b.getStudentClass());

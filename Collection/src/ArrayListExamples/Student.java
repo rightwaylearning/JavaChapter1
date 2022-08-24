@@ -5,10 +5,14 @@ public class Student {
 	private String name;
 	private Integer rollNumber;
 	
-	public Student(String name, Integer rollNumber) {
+	public Student(String name, Integer rollNumber, double f) {
 		super();
 		this.name = name;
 		this.rollNumber = rollNumber;
+	}
+
+	public Student(String name2, int rollNumber2, double f) {
+		// TODO Auto-generated constructor stub
 	}
 
 	public String getName() {
