@@ -35,7 +35,7 @@ public class SuperKeyWord {
 	    A a1= new B();
 	    System.out.println(a1.a);
 	    System.out.println(a1.b);
-	 //   System.out.println(a1.x);
+	// System.out.println(a1.x);
 	 //   System.out.println(a1.y);
 	    
 	 //  B b1= new A();

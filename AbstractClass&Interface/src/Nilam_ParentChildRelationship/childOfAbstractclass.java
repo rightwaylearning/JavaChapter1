@@ -8,7 +8,6 @@ public class childOfAbstractclass extends ParentOfAbstractclass {
 
 	void m2() {
 		System.out.println("I am child class m2() method");
-
 	}
 
 	void m3() {
