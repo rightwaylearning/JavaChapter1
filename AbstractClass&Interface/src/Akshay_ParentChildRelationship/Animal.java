@@ -33,7 +33,7 @@ class Dog extends Animal {
 	public void sound() {
 		System.out.println("Dog is Barking");
 	}
-	
+}
 //---------------------Class 3--------------------------------------------
 	
 class Cow extends Animal {
@@ -47,4 +47,4 @@ class Cow extends Animal {
 		}
 	}
 
-}
+

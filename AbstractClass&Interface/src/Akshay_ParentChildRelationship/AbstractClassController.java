@@ -1,7 +1,5 @@
 package Akshay_ParentChildRelationship;
 
-import Akshay_ParentChildRelationship.Dog.Cow;
-
 abstract class AbstractClassController {
 	
 	public static void main(String[] args) {
