@@ -10,7 +10,7 @@ public class ArrayListNumberSerachProgram {
 		al.add(10); al.add(20);al.add(30);al.add(40);
 		al.add(50);al.add(60);
 		
-		boolean flag = al.contains(500);
+		boolean flag = al.contains(30);
 		System.out.println(flag);
 	}
 }
