@@ -3,6 +3,11 @@ package collection_25_08_2022;
 import java.util.Vector;
 
 public class VectorDemo {
+	
+	VectorDemo(){
+		super();
+		System.out.println(" gdfhgas");
+	}
 
 	public static void main(String[] args) {
 		
