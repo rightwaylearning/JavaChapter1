@@ -1,0 +1,36 @@
+package Soanli_Colletion;
+
+public class EmployeeInfo {
+
+	private String EmpName;
+	private Float Salary;
+
+	public EmployeeInfo(String empName, Float salary) {
+		super();
+		EmpName = empName;
+		Salary = salary;
+	}
+
+	public String getEmpName() {
+		return EmpName;
+	}
+
+	public void setEmpName(String empName) {
+		EmpName = empName;
+	}
+
+	public Float getSalary() {
+		return Salary;
+	}
+
+	public void setSalary(Float salary) {
+		Salary = salary;
+
+	}
+
+	@Override
+	public String toString() {
+		return  "[" + EmpName + ", Salary=" + Salary + "]";
+	}
+
+}
