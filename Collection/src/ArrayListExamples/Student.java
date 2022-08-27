@@ -5,7 +5,7 @@ public class Student {
 	private String name;
 	private Integer rollNumber;
 	
-	public Student(String name, Integer rollNumber) {
+	public Student(String name, String string, Integer rollNumber, double d, int i) {
 		super();
 		this.name = name;
 		this.rollNumber = rollNumber;

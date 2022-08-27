@@ -4,9 +4,12 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import ArrayListExamples.Student;
+
 public class studentDemo {
 	public static void main(String[] args) {
 		List<Student> s = new ArrayList<Student>();
+		
 		Student s1 = new Student("sahil", "java", 101, 85.50, 2022);
 		s.add(s1);
 		Student s2 = new Student("akshay", "java", 102, 88.60, 2022);
@@ -23,20 +26,20 @@ public class studentDemo {
 		s.add(s6);
 
 		Iterator<Student> itr = s.iterator();
-		
-		while (itr.hasNext()) {
-			Student b = itr.next();
+		while(itr.hasNext()) {
+			Student s = itr.next();
+
 			
-			if (86 <= b.getStudentpercentage()) {
+		//	if (60 <= b.getStudentpercentage()) {
 			
-				System.out.println(b.getStudentName());
-				System.out.println(b.getStudentClass());
-				System.out.println(b.getStudentpercentage());
-			    System.out.println("-----------------------");
-			}
+		//		System.out.println(b.getStudentName());
+		//		System.out.println(b.getStudentClass());
+		//		System.out.println(b.getStudentpercentage());
+		//	    System.out.println("-----------------------");
+		//	}
 
 		}
 
 	}
 
-}
+
