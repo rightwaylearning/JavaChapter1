@@ -25,7 +25,7 @@ public class Test {
 
 	public static void main(String[] args) {
 		
-		Student s= new Student("AB",23,78.00F);
+		StudentInfo s= new StudentInfo("AB",23,78.00F);
 		System.out.println(s);  // s.toString();
 		
 		

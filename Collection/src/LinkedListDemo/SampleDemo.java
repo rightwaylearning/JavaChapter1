@@ -17,5 +17,13 @@ public class SampleDemo {
 		
 		
 		System.out.println(ll.getFirst());
+		
+		ll.getFirst();
+		ll.getLast();
+		ll.removeFirst();
+		ll.removeLast();
+		ll.addFirst(20);
+		ll.addLast(30);
+		
 	}
 }
