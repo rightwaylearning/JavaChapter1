@@ -1,8 +1,7 @@
 package NilamCollection;
 
 public class Student1 {
-
-	public String studentName;
+public String studentName;
 	public Integer rollNumber;
 	public float percentage;
 	

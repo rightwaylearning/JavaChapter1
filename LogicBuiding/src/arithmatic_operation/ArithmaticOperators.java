@@ -66,7 +66,7 @@ public class ArithmaticOperators {
 	     byte b4 = 24;
 	     byte b5 = 5;
 	     
-	     int  and4 =  b4%b5;
+	     int  ans4 =  b4%b5;
 	     
 	  System.out.println(ans4);
 	  

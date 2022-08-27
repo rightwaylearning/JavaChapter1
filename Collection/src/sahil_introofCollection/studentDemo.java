@@ -30,7 +30,11 @@ public class studentDemo {
 			Student s = itr.next();
 
 			
+<<<<<<< HEAD
 		//	if (60 <= b.getStudentpercentage()) {
+=======
+			if (86 >= b.getStudentpercentage()) {
+>>>>>>> 776f4c8631673add0ee619a240d191ef96ea7906
 			
 		//		System.out.println(b.getStudentName());
 		//		System.out.println(b.getStudentClass());
