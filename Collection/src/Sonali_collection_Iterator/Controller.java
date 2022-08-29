@@ -1,8 +1,9 @@
-package Iterator_Demo;
+package Sonali_collection_Iterator;
 
 public class Controller {
-	public static void main(String[] args) {
 	
+	public static void main(String[] args) {
+		
 		EmployeeIterator e = new EmployeeIterator("sonali", 10, 3456.00f);
 		e.setName("sonali");
 		e.setRollno(10);
@@ -12,3 +13,5 @@ public class Controller {
 		System.out.println(e.getName());
 	}
 }
+
+

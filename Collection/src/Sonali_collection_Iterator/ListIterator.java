@@ -1,4 +1,4 @@
-package Iterator_Demo;
+package Sonali_collection_Iterator;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -51,3 +51,5 @@ public class ListIterator {
 		System.out.println(ll);
 	}
 }
+
+

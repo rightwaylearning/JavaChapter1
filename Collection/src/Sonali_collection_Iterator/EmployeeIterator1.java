@@ -1,10 +1,9 @@
-package Iterator_Demo;
+package Sonali_collection_Iterator;
 
 import java.util.Iterator;
 import java.util.LinkedList;
-import java.util.List;
 
- final public class EmployeeIterator1 {
+final public class EmployeeIterator1 {
 	private LinkedList<EmployeeIterator> iterator;
 	
 	
@@ -38,7 +37,6 @@ import java.util.List;
  
 	
 	public void viewStack() {
-		
 		Iterator <EmployeeIterator > itr1 = this.iterator.listIterator();
 		while(itr1.hasNext()) {
 			
@@ -49,4 +47,4 @@ import java.util.List;
 		}
 	}
  
-
+	

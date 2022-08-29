@@ -1,9 +1,6 @@
-package Iterator_Demo;
-
-
+package Sonali_collection_Iterator;
 
 public class EmployeeIterator {
-	
 	private String name;
 	private int rollno;
 	private float salary;
@@ -33,8 +30,5 @@ public class EmployeeIterator {
 	}
 	
 	
-	
-	
-}
-		
 
+}
