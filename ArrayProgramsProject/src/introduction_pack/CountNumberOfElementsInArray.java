@@ -1,5 +1,7 @@
 package introduction_pack;
 
+import java.util.ArrayList;
+
 public class CountNumberOfElementsInArray {
 
 	public static void main(String[] args) {
@@ -20,8 +22,9 @@ public class CountNumberOfElementsInArray {
 		}else {
 			System.out.println(r);
 		}
-
+       
 	}
+	
 
 	static int countElement(int[] arr) {
 		int cnt = 0;
