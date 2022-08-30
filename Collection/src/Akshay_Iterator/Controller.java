@@ -12,7 +12,7 @@ public class Controller {
 		Employee Akshay = new Employee(22, "Akshay", 15000.00);
 		al.add(Akshay);
 
-		Employee Sahil = new Employee(23, "Sahil", 22000.00);
+		Employee Sahil = new Employee(23, "Sahil", 18000.00);
 		al.add(Sahil);
 
 		Employee Poonam = new Employee(24, "Poonam", 25000.00);
@@ -21,12 +21,13 @@ public class Controller {
 		Employee Vishal = new Employee(25, "Vishal", 30000.00);
 		al.add(Vishal);
 
+		System.out.println(al);
+		
 		Iterator<Employee> itr = al.iterator();
-
+		
 		while (itr.hasNext()) {
 
 			Employee e = itr.next();
-
 			if (e.getSalary() > 10000.00 && e.getSalary() <= 19000.00) {
 
 				Double netSalary = e.getSalary() + (e.getSalary() * 10 / 100);
@@ -38,7 +39,8 @@ public class Controller {
 				System.out.println("Net Salary is =  " + netSalary);
 				System.out.println("--------------------------------------");
 			}
-
+		}
+			itr = al.iterator();
 			while (itr.hasNext()) {
 
 				Employee e1 = itr.next();
@@ -57,7 +59,7 @@ public class Controller {
 
 			}
 
-		}
+		
 
 	}
 }
