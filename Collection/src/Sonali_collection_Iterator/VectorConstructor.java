@@ -1,4 +1,4 @@
-package VectorDemo;
+package Sonali_collection_Iterator;
 
 import java.util.Iterator;
 import java.util.ListIterator;
