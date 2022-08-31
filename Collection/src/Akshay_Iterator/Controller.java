@@ -39,25 +39,27 @@ public class Controller {
 				System.out.println("--------------------------------------");
 			}
 
-			while (itr.hasNext()) {
-
-				Employee e1 = itr.next();
-
-				if (e1.getSalary() >= 20000.00 && e1.getSalary() <= 30000.00) {
-
-					Double netSalary1 = e1.getSalary() + (e1.getSalary() * 15 / 100);
-
-					System.out.println("Employee ID is =  " + e1.getId());
-					System.out.println("Employee Name is =  " + e1.getName());
-					System.out.println("Previous Salary is =  " + e1.getSalary());
-					System.out.println("Increment is 15% on Previous Salary =  " + e1.getSalary() * 15 / 100);
-					System.out.println("Net Salary is =  " + netSalary1);
-					System.out.println("--------------------------------------");
-				}
-
-			}
-
+//			while (itr.hasNext()) {
+//
+//				Employee e1 = itr.next();
+//
+//				if (e1.getSalary() >= 20000.00 && e1.getSalary() <= 30000.00) {
+//
+//					Double netSalary1 = e1.getSalary() + (e1.getSalary() * 15 / 100);
+//
+//					System.out.println("Employee ID is =  " + e1.getId());
+//					System.out.println("Employee Name is =  " + e1.getName());
+//					System.out.println("Previous Salary is =  " + e1.getSalary());
+//					System.out.println("Increment is 15% on Previous Salary =  " + e1.getSalary() * 15 / 100);
+//					System.out.println("Net Salary is =  " + netSalary1);
+//					System.out.println("--------------------------------------");
+//				}
+//
+//			}
+//
+//		}
+//
+//	}
 		}
-
 	}
 }
