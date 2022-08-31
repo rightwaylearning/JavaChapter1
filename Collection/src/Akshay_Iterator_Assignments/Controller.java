@@ -24,12 +24,12 @@ public class Controller {
 		System.out.println(al);
 		
 		Iterator<Employee> itr = al.iterator();
-<<<<<<< HEAD:Collection/src/Akshay_Iterator_Assignments/Controller.java
+
 		Iterator<Employee> itr1 = al.iterator();
 
-=======
+
 		
->>>>>>> b15b824827e949aaeec99d32b0d8e4a49aec2b2d:Collection/src/Akshay_Iterator/Controller.java
+
 		while (itr.hasNext()) {
 
 			Employee e = itr.next();
@@ -45,7 +45,7 @@ public class Controller {
 				System.out.println("--------------------------------------");
 			}
 		}
-<<<<<<< HEAD:Collection/src/Akshay_Iterator_Assignments/Controller.java
+
 		while (itr1.hasNext()) {
 			Employee e1 = itr1.next();
 
@@ -64,12 +64,9 @@ public class Controller {
 				System.out.println("Net Salary is =  " + netSalary1);
 				System.out.println("--------------------------------------");
 			}
-<<<<<<< HEAD:Collection/src/Akshay_Iterator_Assignments/Controller.java
+ HEAD:Collection/src/Akshay_Iterator_Assignments/Controller.java
 		}
-=======
 
-		
->>>>>>> b15b824827e949aaeec99d32b0d8e4a49aec2b2d:Collection/src/Akshay_Iterator/Controller.java
 
 	}
 
