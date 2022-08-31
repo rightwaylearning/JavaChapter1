@@ -21,13 +21,18 @@ public class Controller {
 		Employee Vishal = new Employee(25, "Vishal", 30000.00);
 		al.add(Vishal);
 
+		System.out.println(al);
+		
 		Iterator<Employee> itr = al.iterator();
+<<<<<<< HEAD:Collection/src/Akshay_Iterator_Assignments/Controller.java
 		Iterator<Employee> itr1 = al.iterator();
 
+=======
+		
+>>>>>>> b15b824827e949aaeec99d32b0d8e4a49aec2b2d:Collection/src/Akshay_Iterator/Controller.java
 		while (itr.hasNext()) {
 
 			Employee e = itr.next();
-
 			if (e.getSalary() > 10000.00 && e.getSalary() <= 19000.00) {
 
 				Double netSalary = e.getSalary() + (e.getSalary() * 10 / 100);
@@ -40,10 +45,15 @@ public class Controller {
 				System.out.println("--------------------------------------");
 			}
 		}
+<<<<<<< HEAD:Collection/src/Akshay_Iterator_Assignments/Controller.java
 		while (itr1.hasNext()) {
 			Employee e1 = itr1.next();
 
 			if (e1.getSalary() >= 20000.00 && e1.getSalary() <= 30000.00) {
+=======
+			itr = al.iterator();
+			while (itr.hasNext()) {
+>>>>>>> b15b824827e949aaeec99d32b0d8e4a49aec2b2d:Collection/src/Akshay_Iterator/Controller.java
 
 				Double netSalary1 = e1.getSalary() + (e1.getSalary() * 15 / 100);
 
@@ -54,7 +64,12 @@ public class Controller {
 				System.out.println("Net Salary is =  " + netSalary1);
 				System.out.println("--------------------------------------");
 			}
+<<<<<<< HEAD:Collection/src/Akshay_Iterator_Assignments/Controller.java
 		}
+=======
+
+		
+>>>>>>> b15b824827e949aaeec99d32b0d8e4a49aec2b2d:Collection/src/Akshay_Iterator/Controller.java
 
 	}
 

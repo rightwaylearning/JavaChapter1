@@ -37,6 +37,7 @@ public class Employee {
 		this.salary = salary;
 	}
 
+<<<<<<< HEAD:Collection/src/Akshay_Iterator_Assignments/Employee.java
 //	@Override
 //	public String toString() {
 //		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + ", getId()=" + getId() + ", getName()="
@@ -45,4 +46,12 @@ public class Employee {
 //	}
 //	
 //	
+=======
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + "]";
+	}
+	
+	
+>>>>>>> b15b824827e949aaeec99d32b0d8e4a49aec2b2d:Collection/src/Akshay_Iterator/Employee.java
 }
