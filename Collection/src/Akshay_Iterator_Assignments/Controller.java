@@ -1,4 +1,4 @@
-package Akshay_Iterator;
+package Akshay_Iterator_Assignments;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -12,7 +12,7 @@ public class Controller {
 		Employee Akshay = new Employee(22, "Akshay", 15000.00);
 		al.add(Akshay);
 
-		Employee Sahil = new Employee(23, "Sahil", 22000.00);
+		Employee Sahil = new Employee(23, "Sahil", 18000.00);
 		al.add(Sahil);
 
 		Employee Poonam = new Employee(24, "Poonam", 25000.00);
@@ -22,6 +22,7 @@ public class Controller {
 		al.add(Vishal);
 
 		Iterator<Employee> itr = al.iterator();
+		Iterator<Employee> itr1 = al.iterator();
 
 		while (itr.hasNext()) {
 
@@ -38,26 +39,23 @@ public class Controller {
 				System.out.println("Net Salary is =  " + netSalary);
 				System.out.println("--------------------------------------");
 			}
+		}
+		while (itr1.hasNext()) {
+			Employee e1 = itr1.next();
 
-			while (itr.hasNext()) {
+			if (e1.getSalary() >= 20000.00 && e1.getSalary() <= 30000.00) {
 
-				Employee e1 = itr.next();
+				Double netSalary1 = e1.getSalary() + (e1.getSalary() * 15 / 100);
 
-				if (e1.getSalary() >= 20000.00 && e1.getSalary() <= 30000.00) {
-
-					Double netSalary1 = e1.getSalary() + (e1.getSalary() * 15 / 100);
-
-					System.out.println("Employee ID is =  " + e1.getId());
-					System.out.println("Employee Name is =  " + e1.getName());
-					System.out.println("Previous Salary is =  " + e1.getSalary());
-					System.out.println("Increment is 15% on Previous Salary =  " + e1.getSalary() * 15 / 100);
-					System.out.println("Net Salary is =  " + netSalary1);
-					System.out.println("--------------------------------------");
-				}
-
+				System.out.println("Employee ID is =  " + e1.getId());
+				System.out.println("Employee Name is =  " + e1.getName());
+				System.out.println("Previous Salary is =  " + e1.getSalary());
+				System.out.println("Increment is 15% on Previous Salary =  " + e1.getSalary() * 15 / 100);
+				System.out.println("Net Salary is =  " + netSalary1);
+				System.out.println("--------------------------------------");
 			}
-
 		}
 
 	}
+
 }

@@ -1,4 +1,4 @@
-package Akshay_Iterator;
+package Akshay_Iterator_Assignments;
 
 public class Employee {
 	
@@ -36,6 +36,13 @@ public class Employee {
 	public void setSalary(Double salary) {
 		this.salary = salary;
 	}
-	
-	
+
+//	@Override
+//	public String toString() {
+//		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + ", getId()=" + getId() + ", getName()="
+//				+ getName() + ", getSalary()=" + getSalary() + ", getClass()=" + getClass() + ", hashCode()="
+//				+ hashCode() + ", toString()=" + super.toString() + "]";
+//	}
+//	
+//	
 }
