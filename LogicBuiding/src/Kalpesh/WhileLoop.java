@@ -11,7 +11,7 @@ public class WhileLoop {
 
 			System.out.println(r);
 			n = n / 10;
-
+			System.out.println("-----------------");
 		}
 		{
 

@@ -4,7 +4,7 @@ public class FindOutOccurancesOfDigit {
 
 	public static void main(String[] args) {
 		long num = 222223345411L;
-		int digit = 2; int frequency = 0;
+		int digit = 3; int frequency = 0;
 		
 		while(num > 0) {
 			long r = num % 10;
