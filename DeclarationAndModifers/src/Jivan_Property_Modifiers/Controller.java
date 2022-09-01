@@ -10,35 +10,9 @@ public class Controller {
 		
 		Test t1 = new Test(100, new Student(), "lmn");
 		
-	
+		Employee e = Employee.getObject();
+		
+		e.m1();
 	}
 
 }
-
-class A{
-	final void m1() {
-		
-	}
-	
-	strictfp void m2() {
-		
-	}
-}
-
-class B extends A{
-	
-	void m2() {
-		
-	}
-}
-
-
-
-
-
-
-
-
-
-
-
