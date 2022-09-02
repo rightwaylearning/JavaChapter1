@@ -19,6 +19,7 @@ public class Test {
 		ArrayList<Integer> al = new ArrayList<>(ll);
 		
 		System.out.println(al.get(4));
+		System.out.println(ll);
 		
 	}
 

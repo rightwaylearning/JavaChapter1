@@ -1,13 +1,13 @@
-package PropetryModiferts;
+package Jivan_Property_Modifiers;
 
 public class Employee {
-
+	
 	private Employee() {
 		
 	}
 	
 	void m1() {
-		System.out.println("good morning india...");
+		System.out.println("good morning India...");
 	}
 	
 	static Employee getObject() {
@@ -15,6 +15,6 @@ public class Employee {
 		Employee e = new Employee();
 		
 		return e;
-		
 	}
+
 }

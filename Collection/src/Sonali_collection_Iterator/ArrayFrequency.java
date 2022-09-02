@@ -13,7 +13,7 @@ public class ArrayFrequency {
 	            for(int j = i+1; j < arr.length; j++){  
 	                if(arr[i] == arr[j]){  
 	                    count++;  
-	                    //To avoid counting same element again  
+	                    
 	                    fr[j] = visited;  
 	                }  
 	            }  
