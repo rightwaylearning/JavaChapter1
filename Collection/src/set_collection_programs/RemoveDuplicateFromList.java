@@ -10,7 +10,7 @@ public class RemoveDuplicateFromList {
 
 	public static void main(String[] args) {
 		
-		int[] arr = {10,20,30,40,10,20,60};
+	//	int[] arr = {10,20,30,40,10,20,60};
 		// OR
 		
 		

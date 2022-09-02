@@ -28,10 +28,16 @@ public class controller {
 
 	}
 
+	private static void updateProductPrice(int i, Product[] arr, double d) {
+		// TODO Auto-generated method stub
+		
+	}
+
 	static void updateSalary(int index, Product[] arr, double percentage) {
 		double updatePrice = arr[index].getPorductPrice() - (arr[index].getPorductPrice() * (percentage / 100));
 		
 		arr[index].setPorductPrice(updatePrice);
+				
 
 	}
 }
