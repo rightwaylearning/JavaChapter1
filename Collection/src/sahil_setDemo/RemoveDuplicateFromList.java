@@ -24,7 +24,8 @@ public class RemoveDuplicateFromList {
 		for (String item : unm) {
 			if (remove.contains(item) == false) {
 				remove.add(item);
-
+System.out.println(unm);
+System.out.println(unm.size());
 			}
 		}
 		// // option 2 to remove duplicate
