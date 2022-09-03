@@ -17,6 +17,18 @@ public class MaxArray {
         System.out.println("Largest element present in given array: " + max); 
 	
         
-	}
+	
+	  int Second_max = arr[0];  
+      
+      for (int i = 0; i < arr.length; i++) {  
+         
+         if(arr[i] >Second_max)  
+            Second_max = arr[i];  
+      }  
+      System.out.println("Largest element present in given array: " + max); 
+      System.out.println("Largest element present in given array: " + Second_max);
+	
+      
+}
 }
 
