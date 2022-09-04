@@ -2,6 +2,7 @@ package Assignment_03_09_2022;
 
 import java.util.HashSet;
 import java.util.Set;
+import java.util.Vector;
 
 public class ShowDuplicateNumberList {
 
@@ -11,6 +12,7 @@ public class ShowDuplicateNumberList {
 		Set<Integer> s = new HashSet<>();
 		Set<Integer> duplicate = new HashSet<>();
 		for (int i : arr) {
+	
 			boolean f = s.add(i);
 			
 			if (f == false) {
@@ -18,5 +20,7 @@ public class ShowDuplicateNumberList {
 			}
 		}
 		System.out.println(duplicate);
+		Vector v;
+		v.elements();;
 	}
 }
