@@ -38,6 +38,10 @@ public class Controller {
 				count++;
 				
 				Fr new1= new Fr(item,count);
+				
+				
+				
+				
 				itr.set(new1);
 				return true;
 			}
