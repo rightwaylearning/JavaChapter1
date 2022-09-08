@@ -10,7 +10,8 @@ public class ArrayFrequencyCount {
 		Integer[] arr = { 10, 20, 30, 10, 20, 30, 20, 45, 67 };
 
 		Map<Integer, Integer> map = new HashMap<>();
-
+		
+		
 		for (Integer num : arr) {
 
 			if (map.containsKey(num)) {
