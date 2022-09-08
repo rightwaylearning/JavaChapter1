@@ -1,4 +1,4 @@
-package Abstaction_sonali;
+package Sonali_Oops_Examples;
 
 interface Menu{
 	void PannerTikka();
