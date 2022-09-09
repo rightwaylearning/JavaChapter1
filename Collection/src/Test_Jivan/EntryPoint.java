@@ -20,7 +20,7 @@ class Z extends X{
 		System.out.println("Z");
 	}
 }
-
+ 
 public class EntryPoint {
 	
 	EntryPoint(){
