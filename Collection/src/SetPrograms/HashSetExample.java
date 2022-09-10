@@ -33,6 +33,5 @@ public class HashSetExample {
 //		while(itr.hasNext()) {
 //			System.out.println(itr.next());
 //		}
-		
 	}
 }

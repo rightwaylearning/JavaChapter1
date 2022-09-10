@@ -37,7 +37,7 @@ public class HashSetWithDuplicateObjects {
 	}
 }
 
-class Employee{
+class Employee implements Comparable{
 	private String name;
 	private Integer empId;
 	
@@ -83,6 +83,27 @@ class Employee{
 	@Override
 	public String toString() {
 		return " [" + name + ", " + empId + "]";
+	}
+
+
+	@Override
+	public int compareTo(Object o) {
+		
+		Employee e = (Employee)o;
+		
+		// 1 option to implement oredr
+		int first = this.empId;
+		int second  = e.empId;
+		if(first < second) {
+			return -1;
+		}else if(second < first) {
+			return 1;
+		}else {
+			return 0;
+		}
+				
+		// second option
+		//return this.empId.compareTo(e.empId);
 	}
 	
 }
