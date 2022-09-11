@@ -8,6 +8,7 @@ public class NoNComparableObjectInsideTreeSet {
 	public static void main(String[] args) {
 
 		Comparator obj = new MyOwnSortingTech();
+		
 		TreeSet<City> c = new TreeSet<>(obj);
 		c.add(new City("Pune"));
 		c.add(new City("Mumbai"));
