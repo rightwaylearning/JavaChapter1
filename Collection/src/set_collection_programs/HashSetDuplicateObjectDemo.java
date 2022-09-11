@@ -4,20 +4,20 @@ import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-class Student{
-	int a ;
-	int b;
-	public Student(int a, int b) {
-		super();
-		this.a = a;
-		this.b = b;
-	}
-		
-	@Override
-	public String toString() {
-		return "Student [a=" + a + ", b=" + b + "]";
-	}
-}
+//class Student{
+//	int a ;
+//	int b;
+//	public Student(int a, int b) {
+//		super();
+//		this.a = a;
+//		this.b = b;
+//	}
+//		
+//	@Override
+//	public String toString() {
+//		return "Student [a=" + a + ", b=" + b + "]";
+//	}
+//}
 
 public class HashSetDuplicateObjectDemo {
 

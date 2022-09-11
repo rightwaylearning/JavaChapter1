@@ -25,8 +25,9 @@ public class ArrayNumberFindoutUsingUtilityMethod {
 		
 		System.out.println(list);
 		System.out.println("max = "+list.get(list.size() -1));
-		System.out.println("max = "+list.get(list.size() -2));
+		System.out.println("max = "+list.get(list.size()-3));
 		
 	
 	}
 }
+
