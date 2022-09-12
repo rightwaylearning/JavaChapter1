@@ -5,7 +5,7 @@ public class MathsOperationNewImpl implements MathsOperation{
 	@Override
 	public int doAddition(int a, int b) {
 		int r = a + b;
-		return r;
+		return r ;
 	}
 
 	@Override
