@@ -18,7 +18,7 @@ public class RemoveDuplicateNumbers {
 		}
 		System.out.println(list);
 //       
-//		Object[] arr1 = list.toArray();
+//	Object[] arr1 = list.toArray();
 //		
 //		for(Object a :arr1) {
 //			System.out.println(a);

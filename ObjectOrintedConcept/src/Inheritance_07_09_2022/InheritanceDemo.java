@@ -11,7 +11,7 @@ class P{
 
 class C extends P{
 	
-	void m2() {
+	void m1() {
 		System.out.println("I am C class m2 method");
 	}
 }

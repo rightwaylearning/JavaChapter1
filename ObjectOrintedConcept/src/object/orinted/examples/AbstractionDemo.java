@@ -24,6 +24,9 @@ public class AbstractionDemo {
 		
 		Customer c= new Customer();
 		c.Order(new  MenuCardImpl());
-		
+	//	=======================================
+		MenuCard m =new  MenuCardImpl();
+		m.paneerTikaMasala();
+		m.tandoorRotti();
 	}
 }

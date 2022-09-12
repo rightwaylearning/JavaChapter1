@@ -22,8 +22,8 @@ public class Controller {
 		  stack.viewStack();
 		  
 		  System.out.println(">>>>>>>>>>>>>");
-		  stack.pop(); stack.pop(); stack.pop();stack.pop();
-		  stack.pop();
+		  stack.pop(); stack.pop(); stack.pop();//stack.pop();
+		 // stack.pop();
 		  
 		  stack.viewStack();
 		

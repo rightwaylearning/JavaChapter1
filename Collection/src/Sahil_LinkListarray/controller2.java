@@ -18,6 +18,6 @@ public static void main(String[] args) {
 	student d4 = new  student("parnjali","java", 56.25, 2022);
 	d.add(d4);
 	Iterator<student> itr = d.iterator();
-
+System.out.println(itr);
 }
 }

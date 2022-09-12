@@ -2,8 +2,7 @@ package Assignmentfr01092022;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import assignment_array_frq_01_09_2022.Fr;
+import java.util.ListIterator;
 
 public class Controller {
 
@@ -31,7 +30,7 @@ static boolean checknumberispresent(int item,List<CountNumber> storage)
 {
 	ListIterator<CountNumber> itr=storage.listIterator();
 	
-	while(itr.hashnext)
+	while(itr.hasNext())
 	{
 		CountNumber obj = itr.next();
 	if(item == obj.getItem()) {
@@ -47,6 +46,7 @@ static boolean checknumberispresent(int item,List<CountNumber> storage)
 	return false;
 
 }
+	return false;
 }
 }
 	

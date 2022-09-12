@@ -20,7 +20,7 @@ public class CopyArrayProgram {
 
 	static Result copyArray(int[] originalArray) {
 
-		int[][] result = new int[2][];
+	//	int[][] result = new int[2][];
 
 		int[] evenIndexArray;
 		int[] oddIndexArray;

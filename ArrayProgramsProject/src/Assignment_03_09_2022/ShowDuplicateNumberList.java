@@ -20,7 +20,7 @@ public class ShowDuplicateNumberList {
 			}
 		}
 		System.out.println(duplicate);
-		Vector v;
-		v.elements();;
+		//Vector v;
+		//v.elements();;
 	}
 }

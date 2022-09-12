@@ -29,7 +29,7 @@ public class Controller {
 				maxSalary = s;
 			}
 		}
-		
+			
 	  
 		// add only max salary employee from main list to result list
 		for (Employee e : list) {
