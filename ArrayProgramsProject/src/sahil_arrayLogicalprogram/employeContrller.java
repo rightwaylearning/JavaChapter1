@@ -23,10 +23,12 @@ public static void main(String[] args) {
 	a.add(s4);
 	employe s5 =new employe("sachit","deshpande","sachit deshpande",25000.00);
 	a.add(s5);
-	System.out.println(a);
+//	System.out.println(a);
  
-	LinkedHashSet<employe>  a1= new LinkedHashSet<>();
-System.out.println(a1);
+for (employe employe : a) {
+	
+}
+     
 	
 
 
