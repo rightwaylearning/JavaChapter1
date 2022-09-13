@@ -17,7 +17,7 @@ public class CountNumberFrequency {
 				map.put(i, 1);
 			}else {
 				Integer v = map.get(i);
-				  v++;
+				 v++;
 				map.put(i, v);
 			}
 		}
