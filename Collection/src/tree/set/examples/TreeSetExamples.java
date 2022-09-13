@@ -25,6 +25,7 @@ public class TreeSetExamples {
 		student.add(new Student("A",85.0));
 		student.add(new Student("B",45.0));
 		
+		
 		System.out.println(student);
 	}
 }
