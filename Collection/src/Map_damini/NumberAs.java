@@ -5,17 +5,20 @@ import java.util.HashMap;
 public class NumberAs {
  public static void main(String[] args) {
 	
-	long a[]= {1l,1l,2l,3l,3l,4l,4l,1l,1l,2l,3l,4l,5l,5l};
-	HashMap<Long,Long> map=new HashMap<>();
-	System.out.println(map);
-	for (long l:a) {
+	long a= 11233441123455l;
+	long l;
+	HashMap<Long,Integer> map=new HashMap<>();
+	//System.out.println(map);
+	while(a>0) {
+		l=a%10;
+		l=l/10;
 		if(map.containsKey(l)==false)
 		{
-			map.put(l, 1l);
+			map.put(l, 1);
 		}
 		else
 		{
-			Long d=map.get(l);
+			Integer d=map.get(l);
 			d++;
 			map.put(l, d);
 		}
