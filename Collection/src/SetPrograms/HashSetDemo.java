@@ -20,13 +20,14 @@ class Student{
 		this.i =i;
 	}
 	
-	@Override
+@Override
+
 	public int hashCode() {
 		return this.i;
 	}
 	
 	@Override
-	public boolean equals(Object obj) {
+public boolean equals(Object obj) {
 		Student s = (Student)obj;
 		return this.i.equals(s.i);
 	}
