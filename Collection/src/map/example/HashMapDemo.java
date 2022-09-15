@@ -2,7 +2,9 @@ package map.example;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
+
 
 public class HashMapDemo {
 
@@ -39,6 +41,23 @@ public class HashMapDemo {
 		// put, get, containsKey,containsValue
 		
 		//map.isEmpty();; true
+		System.out.println(">>>>>>>>>>>>>>>>>>");
+		
+		HashMap<Student , String> map2 = new HashMap<>();
+		map2.put(new Student(10,"A"), "A");
+		map2.put(new Student(10,"A"), "A");
+		map2.put(new Student(10,"A"), "A");
+		
+		System.out.println(map2.size());
+		System.out.println();
+		System.out.println(">>>>>>>>>>>>>>>>>>>>>>>");
+		
+		Employee e = new Employee(10);
+		HashSet<Employee> set3 = new HashSet<>();
+		set3.add(e);set3.add(new Employee(10));set3.add(e);set3.add(e);
+		System.out.println(set3.size());
+	
+		
 	}
 }
 
@@ -51,14 +70,42 @@ class Student{
 		this.rollNumber = rollNumber;
 		this.name = name;
 	}
+	
+	@Override
+	public int hashCode() {
+		return this.rollNumber.hashCode() + this.name.hashCode() + 100;
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		
+		Student s = (Student)obj;
+		
+		if(this.rollNumber.equals(s.rollNumber) && this.name.equals(s.name)) {
+			return true;
+		}
+		
+		return false;
+	}
 
 	@Override
 	public String toString() {
 		return " (" + name + "," + rollNumber + ")";
 	}
+}
+
+class Employee{
 	
+	Integer empId;
 	
-	//List<Student> list = new ArrayList<>();
-	
+
+	Employee(Integer empId){
+		this.empId = empId;
+	}
+
 	
 }
+	
+
+
+
