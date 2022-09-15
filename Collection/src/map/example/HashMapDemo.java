@@ -58,7 +58,7 @@ class Student{
 	}
 	
 	
-	List<Student> list = new ArrayList<>();
+	//List<Student> list = new ArrayList<>();
 	
 	
 }
