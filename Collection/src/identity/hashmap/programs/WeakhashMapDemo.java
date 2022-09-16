@@ -1,6 +1,5 @@
 package identity.hashmap.programs;
 
-import java.util.HashMap;
 import java.util.WeakHashMap;
 
 public class WeakhashMapDemo {
