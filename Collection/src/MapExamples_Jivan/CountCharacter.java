@@ -6,21 +6,23 @@ public class CountCharacter {
 	
 	public static void main(String[] args) {
 		
-		String str = "Hi Hello How Are You";
-		char[] arr = str.toCharArray();
+		String str = "Hi Hello How Are You, Hi I am Jivan and I am fine";
+		String arr[]=str.split(" ");
+		HashMap<String, Integer> map = new HashMap<>();
 		
-		HashMap<Character, Integer> map = new HashMap<>();
+		for (String c : arr) {
 		
-		for (char c : arr) {
-		
-			if(map.CotainsKey(c) == false) {
-				map.put(c, v)
+			if(map.containsKey(c) == false) {
+				map.put(c, 1);
 			}else {
 				Integer v = map.get(c);
 				v++;
 				map.put(c,  v);
 			}
 		}
+		
+		System.out.println(map);
 	}
 
 }
+

@@ -49,28 +49,3 @@ class MyWaySorting implements Comparator<String> {
 	}
 }
 
-class Student1 implements Comparable{
-	Integer rollNumber;
-	String name;
-	
-	Student1(Integer rollNumber, String name) {
-		this.rollNumber = rollNumber;
-		this.name = name;
-		
-	}
-
-	@Override
-	public String toString() {
-		return "[" + rollNumber + ", " + name + "]";
-	}
-	
-	@Override
-	public int compareTO(Object o) {
-		
-	}
-	
-}
-
-
-
-
