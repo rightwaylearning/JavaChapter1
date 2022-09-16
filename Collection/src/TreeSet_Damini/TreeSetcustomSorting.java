@@ -18,7 +18,7 @@ public class TreeSetcustomSorting {
 		
 		System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>");
 		
-		TreeSet<Employee> emp=new TreeSet<>(EmployeeIdRevOrder());
+		TreeSet<Employee> emp=new TreeSet<>(EmployeeIdReserveOrder());
 		{
 			emp.add(new Employee("aa",1));
 			emp.add(new Employee("xx",4));

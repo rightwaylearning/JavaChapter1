@@ -18,7 +18,7 @@ public class TreeSetInstanceOfCustomSorting {
 		t.add(7);
 		System.out.println(t);
 
-		// -----------------------------------------------
+		//-------------------------------------------------------
 		System.out.println(">>>>>>>>>");
 		// TreeSet<Employee> e = new TreeSet<>(); // depend on Comparable for sorting
 		TreeSet<Employee> e = new TreeSet<>(new EmployeeIdRevOrder());
