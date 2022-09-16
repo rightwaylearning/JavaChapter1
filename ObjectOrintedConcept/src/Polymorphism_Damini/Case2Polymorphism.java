@@ -24,6 +24,11 @@ public static void main(String[] args) {
 	 B b=new B();
 	 
 	 byte y=101;
+	 b.m1(y);
 	 
+	 long l=786905L;
+	 b.m1(l);
+	 
+	 b.m1('a');
 }
 }
