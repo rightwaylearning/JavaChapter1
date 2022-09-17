@@ -19,15 +19,15 @@ class A{
 		return 0;
 }
 
-public class Case_1 {
+public static class Case_1 {
 	
 	public static void main(String[] args) {
 		A a = new A();
 		 a.m1(0);
-		 a.m1(0,0);
-		 a.m1(0.0f,0.0f);
+	//  	 a.m1(0, 0);
+		 a.m1(0.0f, 0.0f);
 		 a.m1(0.0f, 0);
-		 a.m1(0,0.0f);
+		 a.m1(0, 0.0f);
 	}
 
 }

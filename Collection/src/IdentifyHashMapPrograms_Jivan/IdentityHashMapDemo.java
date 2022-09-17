@@ -12,7 +12,7 @@ public class IdentityHashMapDemo {
 		Integer j = new Integer(10);
 		Integer k = i;
 		map.put(i,  "first");
-		map.put(j, "first");
+		map.put(j, "second");
 		System.out.println(map);
 		System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
 		
