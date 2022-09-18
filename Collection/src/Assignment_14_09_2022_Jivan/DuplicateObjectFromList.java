@@ -8,15 +8,15 @@ public class DuplicateObjectFromList {
 	
 	public static void main(String[] args) {
 		
-		ArrayList<Student> array = new ArrayList<> ();
-		array.add(new Student(1, "A"));
-		array.add(new Student(11, "B"));
-		array.add(new Student(12, "C"));
-		array.add(new Student(13, "E"));
-		array.add(new Student(14, "F"));
+		ArrayList<Students> array = new ArrayList<> ();
+		array.add(new Students(1, "A"));
+		array.add(new Students(11, "B"));
+		array.add(new Students(12, "C"));
+		array.add(new Students(13, "E"));
+		array.add(new Students(14, "F"));
 		
 		HashMap<String, Integer> map = new HashMap<> ();
-		for(Student s : array) {
+		for(Students s : array) {
 			
 		}
 	}
