@@ -19,6 +19,6 @@ public class Case_6 {
 	public static void main(String[] args) {
 		F f = new F();
 		
-		f.m1(null);
+		// f.m1(null);
 	}
 }

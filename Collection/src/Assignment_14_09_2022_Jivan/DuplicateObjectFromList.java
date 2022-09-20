@@ -1,4 +1,4 @@
-package Assignment_14_09_2022_Jivan;
+ypackage Assignment_14_09_2022_Jivan;
 
 import java.util.HashMap;
 
@@ -22,3 +22,4 @@ public class DuplicateObjectFromList {
 	}
 
 }
+
