@@ -6,7 +6,7 @@ import java.util.PriorityQueue;
 public class QueueDemo {
 	
 	public static void main(String[] args) {
-		 PriorityQueue<Integer> p = new PriorityQueue<>();
+		 PriorityQueue p = new PriorityQueue<>();
 		 
 		 p.offer(10);
 		 p.offer(1);
@@ -20,7 +20,7 @@ public class QueueDemo {
 		 System.out.println(p);
 		 System.out.println(p.peek());
 		 
-		 PriorityQueue<String> p1 = new PriorityQueue<>(new MyComparators());
+		 PriorityQueue p1 = new PriorityQueue<>(new MyComparators());
 		 p1.offer("ST");
 		 p1.offer("AB");
 		 p1.offer("CD");
