@@ -15,7 +15,7 @@ public class HashMapDemo {
 		map.put(10, "Anupama");
 		map.put(20, "Anupama");
 		map.put(30, null);
-		map.put(40, null);
+		map.put(30, null);
 		map.put(50, null);
 		
 		System.out.println(map.size()); //4
@@ -25,7 +25,7 @@ public class HashMapDemo {
 		HashMap<Integer, Student> map1 = new HashMap<>();
 		
 		map1.put(1,new Student(1,"Arjun"));
-		map1.put(2,new Student(2, "bhim"));
+		map1.put(1,new Student(2, "bhim"));
 		map1.put(3,new Student(3, "Nakul"));
 		
 		System.out.println(map1);
@@ -45,11 +45,11 @@ public class HashMapDemo {
 		
 		HashMap<Student , String> map2 = new HashMap<>();
 		map2.put(new Student(10,"A"), "A");
-		map2.put(new Student(10,"A"), "A");
+		map2.put(new Student(11,"B"), "A");
 		map2.put(new Student(10,"A"), "A");
 		
 		System.out.println(map2.size());
-		System.out.println();
+		System.out.println(map2);
 		System.out.println(">>>>>>>>>>>>>>>>>>>>>>>");
 		
 		Employee e = new Employee(10);

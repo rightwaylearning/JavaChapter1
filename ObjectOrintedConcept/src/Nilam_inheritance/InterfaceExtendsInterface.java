@@ -17,25 +17,27 @@ interface G extends A,B{
 }
 public class InterfaceExtendsInterface implements G{
 	
-	public static void main(String[] args) {
-		
-		
-		
-		
-		
-	}
-
+	
 	@Override
 	public void m1() {
-		// TODO Auto-generated method stub
+		System.out.println("i am iterface A method");
 		
 	}
 
 	@Override
 	public void m2() {
-		// TODO Auto-generated method stub
+		System.out.println("i am interface B method ");
+		
 		
 	}
-	
+	public static void main(String[] args) {
+		A a = new InterfaceExtendsInterface();
+		a.m1();
+		B b = new InterfaceExtendsInterface();
+		b.m2();
+		G g = new InterfaceExtendsInterface();
+		g.m1();
+		g.m2();
+	}
 
 }
