@@ -18,8 +18,8 @@ public class Static_Block_example{
 	}
 	public static void main(String[] args) {
 		System.out.println("I am main method start");  // 3
-		Static_Block_example  b = new Static_Block_example();
-		Static_Block_example  b1 = new Static_Block_example();
+		//Static_Block_example  b = new Static_Block_example();
+		//Static_Block_example  b1 = new Static_Block_example();
 		Static_Block_example  b2= new Static_Block_example();
 		System.out.println("I am main method end");  // 7
 	}
