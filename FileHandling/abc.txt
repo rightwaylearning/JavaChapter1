@@ -1,3 +1,11 @@
+<<<<<<< HEAD
 d
 JOE
 good morning
+=======
+Hi hello
+Good morning
+india
+right way learning
+full stack dev
+>>>>>>> c6675b1e6cc83b9ba12085f795a907999ea383c6
