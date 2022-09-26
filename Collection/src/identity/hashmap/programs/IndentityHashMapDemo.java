@@ -11,7 +11,7 @@ public class IndentityHashMapDemo {
 		Integer i = new Integer(10);
 		Integer j = new Integer(10);
 		map.put(i, "first");
-		map.put(j, "first");
+		map.put(j, "aa");
 		System.out.println(map);
 		System.out.println(">>>>>>>>>>>>>>>>");
 		IdentityHashMap<Integer, String> idea =new IdentityHashMap<>();

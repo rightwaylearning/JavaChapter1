@@ -10,12 +10,12 @@ public class HashMapwithIterator {
 	public static void main(String[] args) {
 		
 		HashMap<Integer, String> map = new HashMap();
-		map.put(1, "A");
+		map.put(1, "A,B");
 		map.put(2, "B");
 		map.put(3, "D");
 		map.put(4, "D");
 		map.put(5, "E");
-		
+		System.out.println(map);
 
 		Set<Integer> s =map.keySet();
 		Collection<String> list = map.values();
