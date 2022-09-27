@@ -47,7 +47,9 @@ public class EqualsMethodDemo {
 
 
 // contract between equals & hashCode()
-// 1] if equals method return true  >> hashCode must be same
+// 1] if equals method return true  >> hashCode must be same 100%
 // 2] if equals methods return false >>  hashCode may or may not  be same
 
-// 3] 2 objects hashCode are same >>  true
+// 3] 2 objects hashCode are same >>   then equals method return may be may or may not be
+// 4] 2 objects hashCode are not same >> 100 % equals method return false
+
