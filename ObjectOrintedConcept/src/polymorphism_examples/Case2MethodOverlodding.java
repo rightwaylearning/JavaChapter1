@@ -1,5 +1,7 @@
 package polymorphism_examples;
 
+// Casting implemented here
+
 class B {
 
 	void m1(int a) {
