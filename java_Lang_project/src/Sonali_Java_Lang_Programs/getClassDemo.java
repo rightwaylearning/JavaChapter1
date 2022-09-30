@@ -1,25 +1,27 @@
 package Sonali_Java_Lang_Programs;
-class Student{
-	int a ;
-	int b;
-	
 
-	Student(int a , int b){
-		this.a=a;
-		this.b=b;
+class D {
+	D() {
+
 	}
-	
-	static void m1() {
-		}
-	 static void m2() {
-		
+
+	D(int a, int b) {
 	}
-	
-public class getClassDemo {
-	public static void main(String[] args){
-		Student s = new Student(10,30);
-		
+
+	void m1() {
+	}
+
+	void m2() {
 	}
 }
 
+class getClassDemo {
+
+	public static void main(String[] args) {
+		D a = new D();
+		Class obj = a.getClass();
+
+		System.out.println(obj.getName());
+
+	}
 }
