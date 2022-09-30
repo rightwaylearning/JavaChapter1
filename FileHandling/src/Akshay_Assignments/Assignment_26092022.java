@@ -1,4 +1,4 @@
-package Akshay_Assignment_26092022;
+package Akshay_Assignments;
 
 import java.io.File;
 
