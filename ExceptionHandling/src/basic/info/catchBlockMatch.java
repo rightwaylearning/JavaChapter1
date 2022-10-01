@@ -25,6 +25,7 @@ public class catchBlockMatch {
 			System.out.println(e);
 		} catch (Exception e) {
 			System.out.println(e);
+			System.out.println(e);  // second line
 		}
 		
 		System.out.println("thanks god!! normal termination");
