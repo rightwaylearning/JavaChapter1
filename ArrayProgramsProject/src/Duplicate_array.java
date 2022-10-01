@@ -5,7 +5,7 @@ import java.util.Set;
 public class Duplicate_array {
 	public static void main(String[] args) {
 		int [] arr = {10,20,30,20,10,40,50};
-		Set s = new HashSet(arr);  
+		Set s = new HashSet();  
 		
 		
 	}
@@ -15,4 +15,3 @@ public class Duplicate_array {
 	
 
 }
-ccccvxxccxvcvvvvvvvvvvvvvvvvvv v 
