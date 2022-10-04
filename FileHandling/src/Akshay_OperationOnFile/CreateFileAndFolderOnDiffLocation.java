@@ -155,8 +155,8 @@ public class CreateFileAndFolderOnDiffLocation {
 	}
 }
 
-// We have created new folder in desktop and in that a txt file.
-// We have used File writer & Buffer Writer method.
-// But both files of writer & Buffer writer have no any difference.
-// We cant use file & Buffer writer in same class or main method only last writers in coding will work only.
+// We have created new folder in desktop and created in that a txt file through the coding.
+// We have used File Writer & Buffer Writer method.
+// But Writer & Buffer writer almost same.
+// We can't use File writer & Buffer writer in same class or in main method only last writers in coding will work only.
 // Need to focus on File Reader method.
