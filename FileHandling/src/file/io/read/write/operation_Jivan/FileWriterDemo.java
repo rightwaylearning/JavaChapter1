@@ -9,7 +9,12 @@ public class FileWriterDemo {
 		
 		File f = new File("abc.txt");
 		
-		FileWriter fw = new FileWriter(f);
+		FileWriter fw = new FileWriter(f, true);
+		//										("only name")
+		//										(file ref)
+		//										(file ref, boolean append)
+		//										(String name, boolean append)
+		
 		fw.write(100);
 		fw.write("\n");
 				
