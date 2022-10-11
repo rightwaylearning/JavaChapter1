@@ -1,4 +1,4 @@
-package Basic_Info_Jivan;
+package Basic_Info;
 
 class A {
 	void m1() {

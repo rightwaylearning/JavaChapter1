@@ -12,7 +12,11 @@ public class ComparableDemo {
 		tr.add(new Emp("rani" , 2));
 		tr.add(new Emp("priya" , 3));
 		tr.add(new Emp("pinkii" , 4));
-		tr.add(new Emp("sona" , 5));
+		tr.add(new Emp("sona" , 5))
+		
+		
+		
+		;
 		System.out.println(tr);
 		
 	}
